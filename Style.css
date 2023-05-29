@@ -1,0 +1,47 @@
+body{
+   
+    background: #ef32d9; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ef32d9, #89fffd); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ef32d9, #89fffd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+
+.logo{
+    color: #bfbfe0;
+    font-size: 3em;
+    cursor: default;
+}
+
+.Navigation a{
+    color:rgb(20, 21, 22);
+    text-decoration: none;
+    margin-left: 40px;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 19px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.Navigation a:hover, .Navigation a.active{
+    background: rgb(218, 161, 47);
+}
+
+
+.main{
+    margin-top: 150px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
